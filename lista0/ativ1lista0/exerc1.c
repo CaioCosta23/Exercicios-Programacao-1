@@ -3,7 +3,7 @@
 int main() {
 
 	// Exibe na tela a mensagem abaixo;
-	printf("Hello World!\n");
+	printf("Hello World!");
 	
 	return 0;
 }
