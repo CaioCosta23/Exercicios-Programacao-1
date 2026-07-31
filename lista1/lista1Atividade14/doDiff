@@ -1,0 +1,22 @@
+rm -rf outprog
+mkdir outprog
+./prog < input/test_1 > outprog/arquivo1
+./prog < input/test_2 > outprog/arquivo2
+./prog < input/test_3 > outprog/arquivo3
+./prog < input/test_4 > outprog/arquivo4
+./prog < input/test_5 > outprog/arquivo5
+./prog < input/test_6 > outprog/arquivo6
+./prog < input/test_7 > outprog/arquivo7
+./prog < input/test_8 > outprog/arquivo8
+./prog < input/test_9 > outprog/arquivo9
+./prog < input/test_10 > outprog/arquivo10
+diff output/test_1 outprog/arquivo1
+diff output/test_2 outprog/arquivo2
+diff output/test_3 outprog/arquivo3
+diff output/test_4 outprog/arquivo4
+diff output/test_5 outprog/arquivo5
+diff output/test_6 outprog/arquivo6
+diff output/test_7 outprog/arquivo7
+diff output/test_8 outprog/arquivo8
+diff output/test_9 outprog/arquivo9
+diff output/test_10 outprog/arquivo10
