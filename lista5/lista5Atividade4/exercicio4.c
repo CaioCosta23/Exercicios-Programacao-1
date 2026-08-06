@@ -17,7 +17,9 @@ void leNumeros(int numeros[], int quantidadeNumeros);
 void imprimeValoresDentroForaIntervalo(int numeros[], int quantidadeNumeros, int inicioIntervalo, int fimIntervalo);
 
 /*
- * 
+ * Programa que lê a quantidade de números a sem lidos, os números em si e, em seguida, um intervalo (fechado)
+ * de números. Logo depois deve-se vefificar quantos dos números lidos estão dentro e quantos estão fora do
+ * intervalo e imprimir esa informação na tela;
  */
 int main(int argc, char** argv) {
     int quantidadeNumeros, inicioIntervalo, fimIntervalo;
