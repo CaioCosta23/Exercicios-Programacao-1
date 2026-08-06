@@ -119,11 +119,6 @@ int main(int argc, char** argv) {
             data = alteraData(data);
         
         imprimeData(data);
-        
-        if (dataAnoBissexto(data))
-            printf("Bisexto\n");
-        else
-            printf("Normal\n");
     }
     return (EXIT_SUCCESS);
 }
@@ -163,4 +158,9 @@ Data alteraData(Data data) {
 
 void imprimeData(Data data) {
     printf("'%02d/%02d/%04d':", data.dia, data.mes, data.ano);
+    
+    if (dataAnoBissexto(data))
+        printf("Bisexto\n");
+    else
+        printf("Normal\n");
 }
