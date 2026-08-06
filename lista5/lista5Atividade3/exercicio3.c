@@ -47,7 +47,8 @@ float encontraMaiorDiferenca(float alturas[], int quantidadeAlturas) {
 }
 
 /*
- * 
+ * Programa que lê uma determinada quantidade de postes e suas respectivas alturas e imprime os índices dos postes
+ * com maior diferença entre eles;
  */
 int main(int argc, char** argv) {
     int quantidadePostes;
