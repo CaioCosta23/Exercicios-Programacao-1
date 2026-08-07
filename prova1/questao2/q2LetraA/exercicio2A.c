@@ -16,7 +16,11 @@
 #include <math.h>
 
 /*
+ * Programa que recebe 6 valores (a, b, c, d, e, f) e em seguida 4 valores (ix, sx, iy, sy), com esses 4 últimos
+ * indicando os limites de inferiror (começando com "i") e superior (começando com "s"), onde será
+ * calculado um determinado polinômio com a fórmula ax² + by² + cxy + dx + ey + f.
  * 
+ * Com isso devemos indicar qual o X e qual o Y do maior valor encontrado com o cálculo desse polinômio;
  */
 int main(int argc, char** argv) {
     int a, b, c, d, e, f, x, y, ix, sx, iy, sy, maiorX, maiorY;
