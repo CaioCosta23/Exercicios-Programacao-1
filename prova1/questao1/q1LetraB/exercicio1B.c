@@ -5,7 +5,7 @@
 
 /* 
  * File:   exercicio1B.c
- * Author: archer
+ * Author: Caio Costa Lopes
  *
  * Created on 7 de agosto de 2026, 13:31
  */
