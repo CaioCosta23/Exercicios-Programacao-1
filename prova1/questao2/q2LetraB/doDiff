@@ -1,0 +1,42 @@
+rm -rf outprog
+mkdir outprog
+./prog < input/visivel_01 > outprog/arquivo1
+./prog < input/visivel_02 > outprog/arquivo2
+./prog < input/visivel_03 > outprog/arquivo3
+./prog < input/visivel_04 > outprog/arquivo4
+./prog < input/visivel_05 > outprog/arquivo5
+./prog < input/visivel_06 > outprog/arquivo6
+./prog < input/visivel_07 > outprog/arquivo7
+./prog < input/visivel_08 > outprog/arquivo8
+./prog < input/visivel_09 > outprog/arquivo9
+./prog < input/visivel_10 > outprog/arquivo10
+./prog < input/invisivel_01 > outprog/arquivoInv1
+./prog < input/invisivel_02 > outprog/arquivoInv2
+./prog < input/invisivel_03 > outprog/arquivoInv3
+./prog < input/invisivel_04 > outprog/arquivoInv4
+./prog < input/invisivel_05 > outprog/arquivoInv5
+./prog < input/invisivel_06 > outprog/arquivoInv6
+./prog < input/invisivel_07 > outprog/arquivoInv7
+./prog < input/invisivel_08 > outprog/arquivoInv8
+./prog < input/invisivel_09 > outprog/arquivoInv9
+./prog < input/invisivel_10 > outprog/arquivoInv10
+diff output/visivel_01 outprog/arquivo1
+diff output/visivel_02 outprog/arquivo2
+diff output/visivel_03 outprog/arquivo3
+diff output/visivel_04 outprog/arquivo4
+diff output/visivel_05 outprog/arquivo5
+diff output/visivel_06 outprog/arquivo6
+diff output/visivel_07 outprog/arquivo7
+diff output/visivel_08 outprog/arquivo8
+diff output/visivel_09 outprog/arquivo9
+diff output/visivel_10 outprog/arquivo10
+diff output/invisivel_01 outprog/arquivoInv1
+diff output/invisivel_02 outprog/arquivoInv2
+diff output/invisivel_03 outprog/arquivoInv3
+diff output/invisivel_04 outprog/arquivoInv4
+diff output/invisivel_05 outprog/arquivoInv5
+diff output/invisivel_06 outprog/arquivoInv6
+diff output/invisivel_07 outprog/arquivoInv7
+diff output/invisivel_08 outprog/arquivoInv8
+diff output/invisivel_09 outprog/arquivoInv9
+diff output/invisivel_10 outprog/arquivoInv10
