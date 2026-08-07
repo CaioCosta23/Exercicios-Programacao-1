@@ -38,7 +38,11 @@ int verificaEspecial(char caractere) {
 void verificaTipoSenha();
 
 /*
- * 
+ * Programa que lê uma determinada quantidade de senhas e que verifica se a senha é FORTE, MÉDIA, FRACA ou INVÁLIDA.
+ * Senha FORTE: possui números, letra maiúsculas, minúsculas e caracteres especiais;
+ * Senha MÉDIA: possui letra maiúsculas, minúsculas e caracteres epseciais;
+ * Senha FRACA: senha que não é FORTE nem MÉDIA nem INVÁLIDA;
+ * Senha INVÁLIDA: senha que possui menos de 6 caracteres;
  */
 int main(int argc, char** argv) {
     
