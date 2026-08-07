@@ -51,7 +51,7 @@ int main(int argc, char** argv) {
 void verificaTipoSenha(){
     int numeroSenhas, quantidadeCaracteres, s;
     char caractereSenha;
-    
+    // Variáveis lógicas para verificação do tipo de senha;
     int letraMaiuscula, letraMinuscula, numero, especial;
     
     scanf("%d\n", &numeroSenhas);
