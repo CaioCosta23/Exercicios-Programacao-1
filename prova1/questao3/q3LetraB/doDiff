@@ -1,0 +1,84 @@
+rm -rf outprog
+mkdir outprog
+./prog < input/visivel_01 > outprog/arquivo1
+./prog < input/visivel_02 > outprog/arquivo2
+./prog < input/visivel_03 > outprog/arquivo3
+./prog < input/visivel_04 > outprog/arquivo4
+./prog < input/visivel_05 > outprog/arquivo5
+./prog < input/visivel_06 > outprog/arquivo6
+./prog < input/visivel_07 > outprog/arquivo7
+./prog < input/visivel_08 > outprog/arquivo8
+./prog < input/visivel_09 > outprog/arquivo9
+./prog < input/visivel_10 > outprog/arquivo10
+./prog < input/visivel_11 > outprog/arquivo11
+./prog < input/visivel_12 > outprog/arquivo12
+./prog < input/visivel_13 > outprog/arquivo13
+./prog < input/visivel_14 > outprog/arquivo14
+./prog < input/visivel_15 > outprog/arquivo15
+./prog < input/visivel_16 > outprog/arquivo16
+./prog < input/visivel_17 > outprog/arquivo17
+./prog < input/visivel_18 > outprog/arquivo18
+./prog < input/visivel_19 > outprog/arquivo19
+./prog < input/visivel_20 > outprog/arquivo20
+./prog < input/visivel_21 > outprog/arquivo21
+./prog < input/invisivel_01 > outprog/arquivoInv1
+./prog < input/invisivel_02 > outprog/arquivoInv2
+./prog < input/invisivel_03 > outprog/arquivoInv3
+./prog < input/invisivel_04 > outprog/arquivoInv4
+./prog < input/invisivel_05 > outprog/arquivoInv5
+./prog < input/invisivel_06 > outprog/arquivoInv6
+./prog < input/invisivel_07 > outprog/arquivoInv7
+./prog < input/invisivel_08 > outprog/arquivoInv8
+./prog < input/invisivel_09 > outprog/arquivoInv9
+./prog < input/invisivel_10 > outprog/arquivoInv10
+./prog < input/invisivel_11 > outprog/arquivoInv11
+./prog < input/invisivel_12 > outprog/arquivoInv12
+./prog < input/invisivel_13 > outprog/arquivoInv13
+./prog < input/invisivel_14 > outprog/arquivoInv14
+./prog < input/invisivel_15 > outprog/arquivoInv15
+./prog < input/invisivel_16 > outprog/arquivoInv16
+./prog < input/invisivel_17 > outprog/arquivoInv17
+./prog < input/invisivel_18 > outprog/arquivoInv18
+./prog < input/invisivel_19 > outprog/arquivoInv19
+./prog < input/invisivel_20 > outprog/arquivoInv20
+diff output/visivel_01 outprog/arquivo1
+diff output/visivel_02 outprog/arquivo2
+diff output/visivel_03 outprog/arquivo3
+diff output/visivel_04 outprog/arquivo4
+diff output/visivel_05 outprog/arquivo5
+diff output/visivel_06 outprog/arquivo6
+diff output/visivel_07 outprog/arquivo7
+diff output/visivel_08 outprog/arquivo8
+diff output/visivel_09 outprog/arquivo9
+diff output/visivel_10 outprog/arquivo10
+diff output/visivel_11 outprog/arquivo11
+diff output/visivel_12 outprog/arquivo12
+diff output/visivel_13 outprog/arquivo13
+diff output/visivel_14 outprog/arquivo14
+diff output/visivel_15 outprog/arquivo15
+diff output/visivel_16 outprog/arquivo16
+diff output/visivel_17 outprog/arquivo17
+diff output/visivel_18 outprog/arquivo18
+diff output/visivel_19 outprog/arquivo19
+diff output/visivel_20 outprog/arquivo20
+diff output/visivel_21 outprog/arquivo21
+diff output/invisivel_01 outprog/arquivoInv1
+diff output/invisivel_02 outprog/arquivoInv2
+diff output/invisivel_03 outprog/arquivoInv3
+diff output/invisivel_04 outprog/arquivoInv4
+diff output/invisivel_05 outprog/arquivoInv5
+diff output/invisivel_06 outprog/arquivoInv6
+diff output/invisivel_07 outprog/arquivoInv7
+diff output/invisivel_08 outprog/arquivoInv8
+diff output/invisivel_09 outprog/arquivoInv9
+diff output/invisivel_10 outprog/arquivoInv10
+diff output/invisivel_11 outprog/arquivoInv11
+diff output/invisivel_12 outprog/arquivoInv12
+diff output/invisivel_13 outprog/arquivoInv13
+diff output/invisivel_14 outprog/arquivoInv14
+diff output/invisivel_15 outprog/arquivoInv15
+diff output/invisivel_16 outprog/arquivoInv16
+diff output/invisivel_17 outprog/arquivoInv17
+diff output/invisivel_18 outprog/arquivoInv18
+diff output/invisivel_19 outprog/arquivoInv19
+diff output/invisivel_20 outprog/arquivoInv20
