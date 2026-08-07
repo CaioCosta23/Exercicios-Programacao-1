@@ -15,6 +15,7 @@
 
 /*
  * Programa que lê valores (de no máximo 5 digítos e indica quantos são pares;
+ * (o número possui no mínimo 1 e no máximo 5 dígitos);
  */
 int main(int argc, char** argv) {
     int numero;
